@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehatasam - Code Adventurer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">⚡ EHATASAM</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Profile</a></li>
+                <li><a href="#skills" class="nav-link">Arsenal</a></li>
+                <li><a href="#projects" class="nav-link">Quests</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-pixel" style="top: 10%; left: 5%; animation-delay: 0s;">⭐</div>
+        <div class="floating-pixel" style="top: 20%; right: 10%; animation-delay: 1s;">💎</div>
+        <div class="floating-pixel" style="bottom: 30%; left: 15%; animation-delay: 2s;">🎮</div>
+        <div class="floating-pixel" style="top: 60%; right: 20%; animation-delay: 3s;">✨</div>
+        <div class="floating-pixel" style="bottom: 20%; right: 5%; animation-delay: 1.5s;">🔥</div>
+        
+        <div class="hero-content">
+            <img src="images/b85749ee-b6ef-4a98-aaf9-9d3bddbf63ef (1).png" alt="Ehatasamul Haque" class="pixel-avatar animate-bounce-slow">
+            <h1 class="hero-title">Hi, I'm Ehatasamul Haque</h1>
+            <h2 class="hero-subtitle">Full Stack Developer & Code Adventurer</h2>
+            <p>Leveling up one commit at a time</p>
+            
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <span class="stat-icon">⭐</span>
+                    <span class="stat-value">5</span>
+                    <span class="stat-label">Level</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">🎮</span>
+                    <span class="stat-value">25+</span>
+                    <span class="stat-label">Quests</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">✨</span>
+                    <span class="stat-value">24K</span>
+                    <span class="stat-label">XP</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-icon">⚡</span>
+                    <span class="stat-value">20+</span>
+                    <span class="stat-label">Skills</span>
+                </div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#projects" class="btn-arcade btn-primary">View Quests</a>
+                <a href="#contact" class="btn-arcade btn-secondary">Join Party</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="GitHub" class="social-link">🔗</a>
+                <a href="#" target="_blank" aria-label="LinkedIn" class="social-link">💼</a>
+                <a href="#" target="_blank" aria-label="Twitter" class="social-link">🐦</a>
+                <a href="#" target="_blank" aria-label="Discord" class="social-link">💬</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Player Profile</h2>
+                <p class="section-subtitle">Get to know the developer</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="profile-card fade-in">
+                    <img src="images/b85749ee-b6ef-4a98-aaf9-9d3bddbf63ef (1).png" alt="Developer Profile" class="profile-avatar">
+                    <div class="xp-bar">
+                        <div class="xp-label">
+                            <span>Developer XP</span>
+                            <span>24000/30000</span>
+                        </div>
+                        <div class="xp-progress">
+                            <div class="xp-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text fade-in">
+                    <h3>About the Adventurer</h3>
+                    <p>I'm a passionate web developer who treats coding like an epic adventure. With 1+ years of experience, I've mastered the art of turning complex challenges into elegant solutions. Every project is a new quest, every bug is a boss to defeat!</p>
+                    
+                    <p>My journey in the realm of web development began when I created my first website - a simple pixel art portfolio that sparked a lifelong passion. Since then, I've been on a continuous quest to level up my skills and explore new technologies.</p>
+                    
+                    <p>When I'm not coding, you'll find me contributing to open-source projects, writing tech tutorials, or speedrunning through coding challenges. I believe in learning by doing and sharing knowledge with the community.</p>
+                    
+                    <div class="achievements">
+                        <div class="achievement-badge">
+                            <span class="achievement-icon">🏆</span>
+                            <h4 class="achievement-title">Full Stack Master</h4>
+                            <p>Mastered frontend and backend</p>
+                        </div>
+                        <div class="achievement-badge">
+                            <span class="achievement-icon">🗡️</span>
+                            <h4 class="achievement-title">Bug Slayer</h4>
+                            <p>Defeated 500+ bugs</p>
+                        </div>
+                        <div class="achievement-badge">
+                            <span class="achievement-icon">⚔️</span>
+                            <h4 class="achievement-title">Code Warrior</h4>
+                            <p>1+ years of combat</p>
+                        </div>
+                        <div class="achievement-badge">
+                            <span class="achievement-icon">🤝</span>
+                            <h4 class="achievement-title">Team Player</h4>
+                            <p>Collaboration champion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Tech Arsenal</h2>
+                <p class="section-subtitle">My coding powers and abilities</p>
+            </div>
+            
+            <div class="skills-grid" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Quest Log</h2>
+                <p class="section-subtitle">Completed missions and adventures</p>
+            </div>
+            
+            <div class="projects-grid" id="projectsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Join My Party</h2>
+                <p class="section-subtitle">Ready to start a new quest together?</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3 class="pixel-text">Contact Info</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ehatasamul.haque.adib@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kapasia,Gazipur-1730</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="GitHub" class="social-link">🔗</a>
+                        <a href="#" target="_blank" aria-label="LinkedIn" class="social-link">💼</a>
+                        <a href="#" target="_blank" aria-label="Twitter" class="social-link">🐦</a>
+                        <a href="https://discord.com/users/617647657032089601" target="_blank" aria-label="Discord" class="social-link">💬</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Player Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Quest Type</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required placeholder="What's this quest about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Quest Details</label>
+                        <textarea id="message" name="message" class="form-input" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Start Quest</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-message">GAME OVER<br>Thanks for Playing!</div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Profile</a>
+                <a href="#skills">Arsenal</a>
+                <a href="#projects">Quests</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ehatasamul Haque Adib . All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
