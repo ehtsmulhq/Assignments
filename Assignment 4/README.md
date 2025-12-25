@@ -5,6 +5,7 @@
 ### Name: Ehatasamul Haque Adib
 
 ### Email: wizard.adib@gmail.com
+### Link: https://cozy-belekoy-031663.netlify.app/
 
 ---
 
@@ -106,3 +107,4 @@ The application uses the free TheMealDB API:
 ---
 
 **Created**: December 25, 2025
+
