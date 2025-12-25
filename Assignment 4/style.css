@@ -1,0 +1,161 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.input-bordered {
+  background-color: #ffffff;
+  border-color: #d1d5db;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #fbbd23 94%, #0000) top/9px 9px
+      no-repeat,
+    conic-gradient(#0000 30%, #fbbd23);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+}
+
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/* topToBtn */
+#scrollToTop {
+  width: 30px;
+  height: 30px;
+  background-color: #fbbd23;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in;
+}
+#scrollToTop i {
+  font-size: 20px;
+  margin: auto;
+}
+
+/* Responsive Design for Mobile, Tablet, Desktop, and Large Desktop */
+
+/* Mobile (Small phones - less than 640px) */
+@media (max-width: 639px) {
+  .container {
+    padding: 0.75rem;
+  }
+
+  .w-2\/4 {
+    width: 100%;
+  }
+
+  .hero {
+    height: 250px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.875rem;
+  }
+
+  #food-list {
+    grid-template-columns: 1fr;
+  }
+
+  #scrollToTop {
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    bottom: 30px;
+  }
+}
+
+/* Tablet (640px to 1023px) */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .w-2\/4 {
+    width: 66.666%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    height: 320px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #food-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .w-2\/4 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    height: 380px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  #food-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large Desktop (1280px and above) */
+@media (min-width: 1280px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .w-2\/4 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  #food-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
